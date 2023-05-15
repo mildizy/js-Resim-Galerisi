@@ -1,0 +1,47 @@
+/* Add your styles here */
+body{
+  background-color: gold;
+  text-align: center;
+  align-items: center;
+}
+div{
+  float: left;
+  position:relative;
+  margin: 5px;
+}
+span{
+  position: absolute;
+  right: 0;
+  margin-right: 30%;
+  margin-top: 40%;
+  opacity: .5;
+  background-color: black;
+  color: white;
+  border-radius: 20%;
+  padding: 10px;
+}
+img{
+  height: 200px;
+  width: 200px;
+  border-radius: 20%;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+h1{
+  background-color: black;
+  color: white;
+  opacity: .5;
+  float: center;
+  font-family:'Courier New', Courier, monospace ;
+}
+img:hover{
+  transform: scale(1.2);
+  background-color: gray;
+  box-shadow: rgb(0, 0, 0) ;
+}
+h3{
+  opacity: .5;
+}
+b:hover{
+  color: lightskyblue;
+}
